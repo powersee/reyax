@@ -3,3 +3,25 @@
 
 物联网云端平台使用 reyax.com 的 RYC1001 
 手机上使用 MQTT Dash 这个 app 开作为控制端
+
+```
+{
+    "action": "command/insert",
+    "deviceId": "your device id",
+    "command": {
+        "command": "Control LED",
+        "result": {"status": "turnon"}
+    }
+}
+```
+
+```
+{
+    "action": "command/insert",
+    "deviceId": "your device id",
+    "command": {
+        "command": "Control LED",
+        "result": {"status": "turnoff"}
+    }
+}
+```
